@@ -137,6 +137,7 @@ public class PanCardActivity extends AppCompatActivity {
 
         if(dataMap!=null){
             name.setText(dataMap.get("name"), TextView.BufferType.EDITABLE);
+            
             fatherName.setText(dataMap.get("fatherName"), TextView.BufferType.EDITABLE);
             panNumber.setText(dataMap.get("pan"), TextView.BufferType.EDITABLE);
             dateOfBirth.setText(dataMap.get("dob"), TextView.BufferType.EDITABLE);

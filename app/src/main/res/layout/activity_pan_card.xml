@@ -208,18 +208,39 @@
             </android.support.v7.widget.CardView>
         </LinearLayout>
     </ScrollView>
+
     <Button
         android:id="@+id/ocr"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="92dp"
         android:background="@color/colorPrimary"
+        android:onClick="detectText"
         android:padding="12dp"
         android:text="Extract Info"
-        android:textColor="@android:color/white"
-        android:onClick="detectText"/>
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/sendpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginRight="145dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimary"
+        android:onClick="detectText"
+        android:padding="12dp"
+        android:text="Send Data"
+        android:textColor="@android:color/white" />
 
 
 </RelativeLayout>
